@@ -1,0 +1,27 @@
+body {
+    background-color: #3D4D80;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    height: 25em;
+    width: 25em;
+    background-color: rgb(39, 50, 85);
+    padding: 0.25em;
+}
+
+.boardSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .1em;
+    background-color: #9FAACC;
+    color: black;
+    font-size: 2em;
+}
+
+.boardSpace:hover {
+    background-color: #7A99FF;
+}

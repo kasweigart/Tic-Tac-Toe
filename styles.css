@@ -1,18 +1,41 @@
 body {
     background-color: #3D4D80;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+h2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    
 }
 
 #board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    height: 25em;
-    width: 25em;
+    height: 30em;
+    width: 30em;
     background-color: rgb(39, 50, 85);
     padding: 0.25em;
 }
 
 .boardSpace {
+    width: 4.8em;
+    height: 4.8em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,4 +47,15 @@ body {
 
 .boardSpace:hover {
     background-color: #7A99FF;
+}
+
+#clear {
+    display: flex;
+    margin: auto;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 1.25em;
+    padding: .25em ;
 }

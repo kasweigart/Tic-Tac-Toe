@@ -39,6 +39,8 @@ const event = (function () {
     playersTurn = true;
     currClass = 'X';
     gameGuide.innerText = "Player One is first. Click any space to start!";
+    $('div').removeClass('X');
+    $('div').removeClass('O');
   });
 
   const winArr = [
